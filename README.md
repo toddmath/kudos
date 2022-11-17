@@ -1,6 +1,21 @@
-# Welcome to Remix!
+# Kudos
 
-- [Remix Docs](https://remix.run/docs)
+Technologies used:
+
+- [Remix](https://remix.run/docs)
+- [Prisma](https://www.prisma.io/docs)
+
+## Prisma Tutorials
+
+This App is built following the awesome [Build A Fullstack App with Remix, Prisma & MongoDB](https://www.prisma.io/blog/series/fullstack-remix-prisma-mongodb-MaTVLuwpaICD). Follow along and further your web skills!!
+
+The tutorial is split into 5 sections:
+
+1. [Project Setup](https://www.prisma.io/blog/fullstack-remix-prisma-mongodb-1-7D0BfTXBmB6r)
+2. [Authentication](https://www.prisma.io/blog/fullstack-remix-prisma-mongodb-2-ZTmOy58p4re8)
+3. [CRUD, Filtering & Sorting](https://www.prisma.io/blog/fullstack-remix-prisma-mongodb-3-By5pmN5Nzo1v)
+4. [Referential Integrity & Image Uploads](https://www.prisma.io/blog/fullstack-remix-prisma-mongodb-4-l3MwEp4ZLIm2)
+5. [Deployment](https://www.prisma.io/blog/fullstack-remix-prisma-mongodb-5-gOhQsnfUPXSx)
 
 ## Deployment
 
