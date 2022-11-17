@@ -1,5 +1,14 @@
 {
   "files.associations": {
     "*.css": "tailwindcss"
+  },
+  "editor.detectIndentation": true,
+  "editor.insertSpaces": false,
+  "editor.tabSize": 2,
+  "[typescript]": {
+    "editor.semanticHighlighting.enabled": false
+  },
+  "[typescriptreact]": {
+    "editor.semanticHighlighting.enabled": false
   }
 }
