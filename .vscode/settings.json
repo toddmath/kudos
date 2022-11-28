@@ -10,5 +10,6 @@
   },
   "[typescriptreact]": {
     "editor.semanticHighlighting.enabled": false
-  }
+  },
+  "typescript.tsdk": "node_modules/typescript/lib"
 }

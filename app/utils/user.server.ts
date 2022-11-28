@@ -23,3 +23,22 @@ export const createUser = async ({
 
 	return { id, email };
 };
+
+export const getOtherUsers = async (userId: string) => {
+	return prisma.user.findMany({
+		where: {
+			id: { not: userId },
+		},
+		orderBy: {
+			profile: {
+				firstName: "asc",
+			},
+		},
+	});
+};
+
+export const getUserById = async (id: string) => {
+	return await prisma.user.findUnique({
+		where: { id },
+	});
+};
